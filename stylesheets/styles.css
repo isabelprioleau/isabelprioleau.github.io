@@ -269,15 +269,14 @@ footer {
   }
 }
 
-header ul a,
-.view a,
-ul li a {
-  display: inline !important;
-  height: auto !important;
-  padding: 0 !important;
-  background: none !important;
-  border: none !important;
-  border-radius: 0 !important;
-  text-decoration: underline !important; /* optional */
-  color: #007bff !important;             /* optional: normal link color */
+header ul li a {
+  display: inline !important;      /* inline text, not block */
+  padding: 0 !important;           /* remove spacing */
+  height: auto !important;         /* remove fixed height */
+  line-height: normal !important;  /* normal line spacing */
+  background: none !important;     /* remove background color */
+  border: none !important;         /* remove border */
+  border-radius: 0 !important;     /* remove rounded corners */
+  text-decoration: underline !important; /* optional underline */
+  color: #007bff !important;       /* link color */
 }
